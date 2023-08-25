@@ -5,10 +5,10 @@
   align-items: center;
   gap: 2rem;
   background: #fafafa;
-  padding: 1rem;
   border-radius: 2rem;
+  padding: 1rem 2rem;
+  max-width: 40rem;
 }
-
 .section-container {
   display: flex;
   flex-direction: column;
@@ -16,16 +16,14 @@
   justify-content: center;
   gap: 2rem;
 }
-
 .details-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
 }
-
 .details-icon-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

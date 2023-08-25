@@ -1,35 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
-
 h1 {
   font-size: 2rem;
 }
-
 h2 {
   font-size: 1.5rem;
 }
-
-h3,
-p,
-a {
+h3 {
   font-size: 1rem;
 }
-
+p,
+a {
+  font-size: 0.75rem;
+}
 .main-container {
   height: 100vh;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
 }
-
 .page-container {
   display: flex;
   flex-direction: column;
@@ -40,57 +34,85 @@ a {
   gap: 2rem;
   scroll-snap-align: center;
 }
-
 .title {
   text-align: center;
 }
-
 .icon {
   cursor: pointer;
   height: 40px;
   width: 40px;
 }
-
 .btn {
-  font-weight: 600;
+  font-weight: 800;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   transition: background 300ms ease, border-color 300ms ease, color 300ms ease;
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
 }
-
 .btn-color-1,
 .btn-color-2 {
   border: #353535 0.1rem solid;
 }
-
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
   background: #353535;
   color: #fff;
 }
-
 .btn-color-1:hover {
   background: #000;
 }
-
 .btn-color-2 {
   background: none;
 }
-
 .bg1 {
   background-color: #1be7ff;
 }
-
 .bg2 {
   background-color: #29e7cd;
 }
-
 .bg3 {
   background-color: #d9dbf1;
 }
-
 .bg4 {
   background-color: #f5cac3;
+}
+.fixed-header {
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+}
+.fixed-footer {
+  padding: 2rem;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  z-index: 1;
+}
+.footer {
+  margin: 2rem;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p,
+  a {
+    font-size: 1rem;
+  }
+}
+@media (max-height: 600px) {
+  .hide {
+    display: none;
+  }
 }
