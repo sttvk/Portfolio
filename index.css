@@ -79,8 +79,6 @@ a {
   background-color: #f5cac3;
 }
 .fixed-header {
-  position: relative;
-  top: 1rem;
   padding: 1rem;
   position: sticky;
   top: 0;
@@ -88,8 +86,6 @@ a {
   z-index: 1;
 }
 .fixed-footer {
-  position: relative;
-  top: 1rem;
   padding: 1rem;
   position: sticky;
   bottom: 0;
