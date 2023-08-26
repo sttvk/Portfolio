@@ -1,9 +1,9 @@
 .profile-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
   gap: 2rem;
 }
 .profile-info-container {
