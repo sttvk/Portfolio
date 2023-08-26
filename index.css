@@ -89,7 +89,7 @@ a {
 }
 .fixed-footer {
   position: relative;
-  bottom: 1rem;
+  top: 1rem;
   padding: 1rem;
   position: sticky;
   bottom: 0;

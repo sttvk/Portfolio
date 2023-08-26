@@ -1,6 +1,6 @@
 .projects-container {
   position: relative;
-  top: 1rem;
+  bottom: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
