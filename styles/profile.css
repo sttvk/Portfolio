@@ -31,6 +31,9 @@
   gap: 0.5rem;
 }
 @media (min-width: 1200px) {
+  .extra {
+    font-size: 1rem;
+  }
   .profile-container {
     flex-direction: row;
     gap: 8rem;
