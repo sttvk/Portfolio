@@ -99,6 +99,21 @@ a {
   margin: 1rem;
   text-align: center;
 }
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  p,
+  a {
+    font-size: 1rem;
+  }
+}
 @media (max-height: 600px) {
   .hide {
     display: none;
